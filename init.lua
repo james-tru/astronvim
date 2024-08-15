@@ -14,6 +14,6 @@ if not pcall(require, "lazy") then
   vim.fn.getchar()
   vim.cmd.quit()
 end
-
+if vim.lsp.inlay_hint then vim.lsp.inlay_hint.enable(true, { 0 }) end
 require "lazy_setup"
 require "polish"
