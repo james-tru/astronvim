@@ -24,5 +24,7 @@ return {
   { import = "astrocommunity.motion.nvim-surround"},
   { import = "astrocommunity.syntax.vim-easy-align"},
   { import = "astrocommunity.diagnostics.trouble-nvim"},
-  { import = "astrocommunity.pack.markdown"}
+  { import = "astrocommunity.pack.markdown"},
+  { import = "astrocommunity.recipes.vscode"},
+  { import = "astrocommunity.scrolling.mini-animate"}
 }
