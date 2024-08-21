@@ -43,11 +43,18 @@ return {
           ["<leader>Ow"] = { ":ObsidianWorkspace<SPACE>" },
           ["<leader>Op"] = { ":ObsidianPasteImg<SPACE>" },
           ["<leader>Or"] = { ":ObsidianRename<SPACE>" },
+          [">"] = { ":Hi><CR>" },
+          ["<"] = { ":Hi<<CR>" },
+          ["{"] = { ":Hi{<CR>" },
+          ["}"] = { ":Hi}<CR>" },
+          ["["] = { ":Hi[<CR>" },
+          ["]"] = { ":Hi]<CR>" },
         },
         t = {
           -- setting a mapping to false will disable it
           -- ["<esc>"] = false,
           ["<esc>"] = { "<C-\\><C-N>" },
+          ["<C-w>"] = { "<C-\\><C-N><C-w>" },
         },
       },
     },
